@@ -1,0 +1,4 @@
+#removing the data folders
+team1_data/raw_data/
+team1_data/processed_data/
+
