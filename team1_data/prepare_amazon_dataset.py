@@ -86,7 +86,6 @@ def clean_missing_and_duplicates(df: pd.DataFrame) -> pd.DataFrame:
     # fill less-critical missing fields instead of dropping more rows
     df["name"] = df["name"].fillna("Unknown Product")
     df["reviews.title"] = df["reviews.title"].fillna("")
-    df["reviews.doRecommend"] = df["reviews.doRecommend"].fillna("Unknown")
     df["reviews.numHelpful"] = df["reviews.numHelpful"].fillna(0)
     df["reviews.date"] = df["reviews.date"].fillna("Unknown")
 
