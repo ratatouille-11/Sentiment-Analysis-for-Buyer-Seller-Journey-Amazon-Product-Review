@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;800&family=Poppins:wght@300;500;700&display=swap');
+html, body, [class*="css"]{
+    font-family:'Inter',sans-serif;
+}
+
+.stApp{
+    background:#090909;
+}
+
+header,
+footer,
+#MainMenu{
+    visibility:hidden;
+}
+
+.block-container{
+    max-width:1200px;
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
+
+div[data-testid="stFileUploader"]{
+    border:2px dashed #D90429;
+    border-radius:20px;
+    padding:25px;
+    background:#111111;
+}
+
+div[data-testid="stFileUploader"]:hover{
+    border-color:#FF1F4B;
+}
+
